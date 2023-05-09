@@ -1,7 +1,7 @@
 Hello! I'm Justin, and this repository tracks my learning and professional development as I transition from games (Unity, Godot) into .NET development. I'm doing this for a few reasons, but primarily to become a better, more well-rounded software developer. I love learning and solving interesting problems, so from my perspective, it feels like a natural move.
 
 # Things I know
-- I've created prototypes and games in Unity and Godot, both independently and as a contractor. See my pubished free work here: https://aberrator.itch.io.
+- I've created prototypes and games in Unity and Godot, both independently and as a contractor. See my free work here: https://aberrator.itch.io.
 - I have an intermediate knowledge of C# and SQL, and am familiar with JS and Python.
 - I have a basic understanding of OOP and software design patterns.
 - I'm working on filling in knowledge gaps. My most recent accomplishment is being able to program binary search!
