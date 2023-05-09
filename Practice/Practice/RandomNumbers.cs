@@ -8,14 +8,13 @@ namespace Practice
 {
     public static class RandomNumbers
     {
-
-        public static List<int> Generate(int count)
+        public static int[] Generate(int count)
         {
             var rand = new Random();
-            List<int> randNums = new List<int>();
+            int[] randNums = new int[count];
 
-            for(int i = 0; i < count; ++i)
-                randNums.Add(rand.Next());
+            for (int i = 0; i < count; ++i)
+                randNums[i] = rand.Next();
 
             return randNums;
         }

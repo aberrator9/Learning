@@ -8,9 +8,9 @@ namespace Practice
 {
     internal class Program
     {
-        static void Main()
-        {
-            Console.WriteLine(RandomNumbers.Generate(12));
-        }
+        // static void Main()
+        // {
+        //     Console.WriteLine(RandomNumbers.Generate(12));
+        // }
     }
 }
