@@ -3,8 +3,8 @@ using System.Collections;
 
 /*
     Works as FIFO, so its operations, enqueue and dequeue,
-    push and pop from the head.
-    Function in opposite fashion to a stack,
+    push to the tail node and pop from the head node.
+    Queues function differnetly from a stack,
     which pushes to and pops from the tail.
     Array can serve both of these purposes, so it would be
     interesting to compare Queue's performance vs array.
