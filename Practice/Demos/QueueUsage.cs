@@ -1,20 +1,22 @@
-using System;
 using System.Collections;
 
 /*
     Works as FIFO, so its operations, enqueue and dequeue,
     push to the tail node and pop from the head node.
-    Queues function differnetly from a stack,
-    which pushes to and pops from the tail.
+    Queues function differently from a stack,
+    which pushes to and pops from the tail (I think).
     Array can serve both of these purposes, so it would be
     interesting to compare Queue's performance vs array.
 */
 
+namespace Demos;
+
 public class QueueUsage
 {
-    public static void Main()
+    public Queue QQ = new();
+
+    public void Demo()
     {
-        Queue QQ = new();
         QQ.Enqueue("Hello");
         QQ.Enqueue("there");
         QQ.Enqueue("fine");
@@ -28,6 +30,20 @@ public class QueueUsage
 
         PrintValues(QQ);
         // Prints "    fine    fellow    how are you?"
+    }
+
+    public Object EnqueueDequeueAndPeek(Object[] objects, int returnObjectAtIndex)
+    {
+        if (objects.Length <= 0 || returnObjectAtIndex > objects.Length - 1)
+            return null;
+
+        foreach (Object o in objects)
+            QQ.Enqueue(o);
+
+        while (QQ.Count - 1 > returnObjectAtIndex)
+            QQ.Dequeue();
+
+        return QQ.Peek();
     }
 
     public static void PrintValues(IEnumerable myCollection)
