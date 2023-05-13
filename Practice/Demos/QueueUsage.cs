@@ -13,10 +13,10 @@ namespace Demos;
 
 public class QueueUsage
 {
-    public Queue QQ = new();
-
     public void Demo()
     {
+        Queue QQ = new();
+
         QQ.Enqueue("Hello");
         QQ.Enqueue("there");
         QQ.Enqueue("fine");
@@ -37,13 +37,14 @@ public class QueueUsage
         if (objects.Length <= 0 || returnObjectAtIndex > objects.Length - 1)
             return null;
 
+        Queue queue = new();
         foreach (Object o in objects)
-            QQ.Enqueue(o);
+            queue.Enqueue(o);
 
-        while (QQ.Count - 1 > returnObjectAtIndex)
-            QQ.Dequeue();
+        for (int x = 0; x < returnObjectAtIndex; x++)
+            queue.Dequeue();
 
-        return QQ.Peek();
+        return queue.Peek();
     }
 
     public static void PrintValues(IEnumerable myCollection)

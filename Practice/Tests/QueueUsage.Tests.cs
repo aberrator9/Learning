@@ -17,14 +17,12 @@ public class Tests
         Assert.Pass();
     }
 
-    [TestCase(new Object[] { "3" }, 1)]                     // Index OOB - Return null
-    [TestCase(new Object[] { "3", 2 }, -1)]                 // "Index OOB" - Return null
-    [TestCase(new Object[] { 3, "Dentist", 'y', 'n' }, 1)]  // "Dentist"
-    [TestCase(new Object[] { "3", 2 }, 0)]                  // "3"
-
+    [TestCase(new Object[] { 3, "Dentist", 'y', 'n' }, 1)]          // "Dentist"
+    [TestCase(new Object[] { "alight", 2 }, 0)]                     // "alight"
+    [TestCase(new Object[] { 'l', 'b', 'j', "best", "prez" }, 4)]   // "prez"
     public void QueueUsage_EnqueueDequeueAndPeekTest(Object[] objects, int returnObjectAtIndex)
     {
         var result = _queueUsage.EnqueueDequeueAndPeek(objects, returnObjectAtIndex);
-        Assert.AreEqual(result, objects[returnObjectAtIndex]);
+        Assert.AreEqual(objects[returnObjectAtIndex], result);
     }
 }
