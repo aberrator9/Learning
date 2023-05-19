@@ -4,21 +4,25 @@ html {
 }
 
 em {
-    color: aquamarine
+    color: rgb(153, 255, 221)
 }
 
 body {
+    width: 800px;
+    margin: 0 auto;
+    color: antiquewhite;
     font-family: 'Roboto', sans-serif;
-    color: wheat;
-    text-emphasis-color: aquamarine;
+    text-emphasis-color: rgb(153, 255, 221);
     background-color: rgb(27, 102, 86);
+    padding: 0 20px 20px 20px;
+    border: 20px double rgb(153, 255, 221);
 }
 
 h1 {
-    margin: 5%;
+    margin: 5% 20%;
     padding-top: 5%;
-    font-size: 60px;
-    text-align: center;
+    font-size: 75px;
+    text-align: left;
 }
 
 h3 {
@@ -28,8 +32,8 @@ h3 {
 #p1 {
     padding: 5%;
     letter-spacing: 1px;
-    border: 15px aquamarine;
-    border-style: inset;
+    border: 15px rgb(153, 255, 221);
+    border-style: outset;
     margin: 10%;
 }
 
