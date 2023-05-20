@@ -19,9 +19,8 @@ body {
 }
 
 h1 {
-    margin: 5% 20%;
-    padding-top: 5%;
-    font-size: 75px;
+    margin: 10% 20%;
+    font-size: 64px;
     text-align: left;
 }
 
@@ -29,16 +28,23 @@ h3 {
     font-family: 'Roboto-bold', sans-serif;
 }
 
+img {
+    display: block;
+    margin: 0 auto;
+}
+
 #p1 {
     padding: 5%;
     letter-spacing: 1px;
-    border: 15px rgb(153, 255, 221);
+    border: 16px rgb(153, 255, 221);
     border-style: outset;
     margin: 10%;
 }
 
 p,
 li {
-    font-size: 16px;
+    display: block;
+    width: 20;
+    font-size: 15px;
     line-height: 2;
 }
