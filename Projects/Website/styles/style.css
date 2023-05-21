@@ -21,6 +21,11 @@ body {
 h1 {
     margin: 10% 20%;
     font-size: 64px;
+    text-align: center;
+}
+
+#functionTest {
+    text-align: center;
     text-align: left;
 }
 
