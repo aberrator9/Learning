@@ -17,13 +17,13 @@ if (!localStorage.getItem("name")) {
     setUserName();
 } else {
     const storedName = localStorage.getItem("name");
-    myHeading.textContent = `Finally, an employee who won't ruin your business, ${storedName}`;
+    myHeading.innerHTML = `Finally, an employee who <em>won't</em> ruin your business, ${storedName}`;
 }
 
 function setUserName(name) {
     const myName = prompt("Please enter your name.")
     localStorage.setItem("name", myName);
-    myHeading.textContent = `Finally, an employee who won't ruin your business, ${myName}`;
+    myHeading.innerHTML = `Finally, an employee who <em>won't</em> ruin your business, ${myName}`;
 }
 
 let functionTest = document.getElementById("functionTest")
