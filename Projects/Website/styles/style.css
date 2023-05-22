@@ -7,6 +7,13 @@ em {
     color: rgb(153, 255, 221)
 }
 
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
 body {
     width: 800px;
     margin: 0 auto;
@@ -26,7 +33,6 @@ h1 {
 
 #functionTest {
     text-align: center;
-    text-align: left;
 }
 
 h3 {
