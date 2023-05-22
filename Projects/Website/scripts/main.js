@@ -10,7 +10,7 @@ myButton.onclick = () => {
 
 pikaButton.onclick = () => {
     pikaImgScaleX = -pikaImgScaleX;
-    pikaImg.style.transform = `scaleX(${-pikaImgScaleX})`;
+    pikaImg.style.transform = `scaleX(${pikaImgScaleX})`;
 }
 
 if (!localStorage.getItem("name")) {
@@ -35,7 +35,7 @@ function multiply(num1, num2) {
     return num1 * num2;
 }
 
-function pressStartAnimation() {
+function squashAndStretch() {
     scaleX = 1 + Math.sin(angle) * 0.08; // Adjust the amplitude as needed
     scaleY = 1 - Math.cos(angle) * 0.03;
 
@@ -44,9 +44,9 @@ function pressStartAnimation() {
     angle += 0.07; // Adjust the speed as needed
 
     // Call animate() on the next frame
-    requestAnimationFrame(pressStartAnimation);
+    requestAnimationFrame(squashAndStretch);
     functionTest.textContent = "scaleX * scaleY " + multiply(scaleX, scaleY).toFixed(2);
 }
 
 // Start the animation loop
-pressStartAnimation();
+squashAndStretch();
