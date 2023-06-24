@@ -1,15 +1,8 @@
-using NUnit;
-
 namespace Tests;
 
 public class Tests
 {
     Demos.QueueUsage _queueUsage = new Demos.QueueUsage();
-
-    [SetUp]
-    public void Setup()
-    {
-    }
 
     [Test]
     public void PassingTest()
