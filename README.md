@@ -2,23 +2,20 @@ Hello! I'm Justin, and this repository tracks my learning and professional devel
 
 # Things I know
 - I've created prototypes and games in Unity and Godot, both independently and as a contractor. See my free work here: https://aberrator.itch.io.
-- I have an intermediate knowledge of C# and SQL, and am familiar with JS and Python.
+- I have an intermediate knowledge of C# and SQL, and am familiar with JS, HTML, and CSS.
 - I have a basic understanding of OOP and software design patterns.
-- I'm working on filling in knowledge gaps. My most recent accomplishment is being able to program binary search!
+- I'm working on filling in knowledge gaps. My most recent accomplishment is being able to write a stack and a queue!
 
 # Progress
 Check out my public Trello board here for my overall roadmap:
 https://trello.com/b/OqtRkk1Z/professional-development
 
-I'm also re-teaching myself proper typing in order to increase my speed. I maxed out around 80 wpm by my previous, semi-random method. Now, with proper form, I am up to about 70 wpm, and I expect that to continue rising for a while.
-
 # Current study / goals
-- [15%] Data Structures and Algorithms: https://frontendmasters.com/courses/algorithms/
+- [30%] Data Structures and Algorithms: https://frontendmasters.com/courses/algorithms/
 - [60%] Microsoft Visual C# 2013 Step by Step (John Sharp, book)
-- [Not started] Professional ASP.NET MVC 4 (Jon Galloway, Phil Haack, book)
+- [50%] ASP.NET Core through Microsoft's docs and tutorials
 
-- Create ASP.NET CRUD app, other practice database access apps
-- Personal project - Family cabin scheduler website with JS frontend, date picker, SQL, authentication.
-- Personal project - Poetry website
+- Personal project - Family cabin scheduler website with MVC, date picker, SQL, authentication.
+- Personal project - Poetry website with Razor Pages
 
-Thanks for checking out the repo! I will be adding practice projects as I come up with and complete them, as well as hopefully editing this readme to be more interactive and automated :)
+Thanks for checking out the repo! I will be adding practice projects as I come up with and complete them :)
