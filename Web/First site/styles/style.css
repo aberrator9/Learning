@@ -71,3 +71,33 @@ li {
     background-color: #555;
     /* Add a dark-grey background on hover */
 }
+
+.feedback-foldout {
+    transform: rotate(-0.25turn);
+    display: block;
+    position: fixed;
+    right: -4em;
+    top: 50%;
+    transition: ease-out 0.2s;
+    background: rgb(22, 22, 22);
+    height: 5em;
+    width: 7em;
+    padding-top: 0.5em;
+    font-size: 16px;
+    text-align: center;
+    margin: 0;
+}
+
+.feedback-foldout:hover {
+    right: -3em;
+}
+
+#plus-sign {
+    font-size: 18px;
+    display: inline-block;
+    transition: ease-out 0.2s;
+}
+
+.feedback-foldout:hover #plus-sign {
+    transform: rotate(90deg);
+}
